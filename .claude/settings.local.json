@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Program Files/**)",
+      "Read(//d/Program Files/**)",
+      "Read(//e/Program Files/**)",
+      "Bash(reg query:*)",
+      "Bash(\"S:/Game Development/UE_5.7/Engine/Build/BatchFiles/RunUAT.bat\" BuildPlugin -Plugin=\"S:/GASPALS/GASPALS/UnrealClaude/UnrealClaude/UnrealClaude.uplugin\" -Package=\"S:/GASPALS/GASPALS/UnrealClaude/Output\" -TargetPlatforms=Win64)",
+      "Bash(cp:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
